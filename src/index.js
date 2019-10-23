@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Grandparent from "./components/Grandparent";
 import "./styles.css";
-
 function App() {
   return (
     <div className="App">
