@@ -1,4 +1,4 @@
-import React from "react";
+import { CurrentModule, React, useApp } from "../CurrentModule";
 import Offspring from "./Child";
 const name = __filename.split(/.*\/(.*)\.jsx$/)[1];
 console.log(`Reloaded ${name}`);
@@ -14,3 +14,4 @@ const Component = () => {
 };
 
 export default Component;
+CurrentModule(Component);
