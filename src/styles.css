@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Child {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.Grandchild {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.GrandParent {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.Parent {
+  margin: 10px;
+  border: 2px solid black;
+}
