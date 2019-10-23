@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import CurrentModule from "./CurrentModule";
 import Grandparent from "./components/Grandparent";
 import "./styles.css";
 function App() {
@@ -11,6 +11,4 @@ function App() {
     </div>
   );
 }
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+CurrentModule(App);
