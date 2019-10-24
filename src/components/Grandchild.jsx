@@ -8,7 +8,10 @@ const Component = () => {
   const { state, actions } = useApp();
   return (
     <div className={name}>
-      <p> Some text from a {name} </p>
+      <p>
+        {name} {state.count}
+      </p>
+      {/* <button onClick={actions.increaseCount}>Increase</button> */}
     </div>
   );
 };

@@ -6,7 +6,7 @@ console.log(`Reloaded ${name}`);
 const Component = () => {
   return (
     <div className={name}>
-      <p> Some text from a {name} </p>
+      <p> {name} </p>
       <Offspring />
       <Offspring />
     </div>

@@ -7,7 +7,9 @@ const Component = () => {
   const { state, actions } = useApp();
   return (
     <div className={name}>
-      <p> Some text from a {name} </p>
+      <p>
+        {name} {state.something}
+      </p>
       <Offspring />
       <Offspring />
     </div>

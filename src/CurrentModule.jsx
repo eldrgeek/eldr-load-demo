@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import { Provider } from "overmind-react";
 import { app } from "./app";
 import { useApp } from "./app";
-
+console.log("loaed the current module");
 const CurrentModule = Element => {
   const rootElement = document.getElementById("root");
   render(

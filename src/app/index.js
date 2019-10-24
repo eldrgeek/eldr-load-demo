@@ -4,12 +4,13 @@ export let useApp;
 export let app;
 app = createOvermind({
   state: {
-    count: 0,
-    logs: []
+    count: 3,
+    logs: [],
+    something: 12
   },
   actions: {
-    increaseCount({ state }, count = 1) {
-      state.count += count;
+    increaseCount({ state }) {
+      state.count += 1;
     }
   }
 });

@@ -2,22 +2,26 @@
   font-family: sans-serif;
   text-align: center;
 }
-.Child {
+.Grandparent {
   margin: 10px;
-  border: 2px solid black;
-}
-
-.Grandchild {
-  margin: 10px;
-  border: 2px solid black;
-}
-
-.GrandParent {
-  margin: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
+  background-color: #eee;
 }
 
 .Parent {
   margin: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
+  background-color: #ddd;
+}
+
+.Child {
+  margin: 10px;
+  border: 1px solid black;
+  background-color: #ccc;
+}
+
+.Grandchild {
+  margin: 10px;
+  border: 1px solid black;
+  background-color: #bbb;
 }
